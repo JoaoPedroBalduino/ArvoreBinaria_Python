@@ -5,10 +5,11 @@ class Node:
     Cada nó possui um valor, referência para filho esquerdo e direito.
     """
     def __init__(self, valor):
-        self.valor = valor
-        self.esquerda = None
-        self.direita = None
+        self.valor = valor #Armazena número
+        self.esquerda = None #Nó da esquerda
+        self.direita = None #Nó da direita
     
+    #Método define como o objeto será exibido
     def __str__(self):
         return f"Node({self.valor})"
     
